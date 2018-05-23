@@ -18,7 +18,7 @@ const CardGroup = (props) => (
     </div>
 );
 
-const Card = (props,) => (
+const Card = (props) => (
     <div className="card cardGroup__card">
             <div className="card__description cardGroup__cardDescription">
                 <div className={`icon fa ${props.icon} card__descriptionIcon`} />
@@ -30,7 +30,6 @@ const Card = (props,) => (
             </div>
             <div className="card__price">{props.price}</div>
     </div>
-
 );
 
 const App = () => (
